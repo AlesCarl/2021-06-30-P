@@ -39,6 +39,8 @@ public class FXMLController {
 
     @FXML
     void doStatistiche(ActionEvent event) {
+    	
+    	this.model.creaGrafo();
 
     }
 
